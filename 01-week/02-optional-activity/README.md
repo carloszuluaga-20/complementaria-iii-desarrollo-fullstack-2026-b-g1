@@ -2,7 +2,7 @@
 
 ## Nombre
 
-[Tu nombre completo]
+Carlos Andrés Zuluaga Acuña
 
 ## Expectativas del curso
 
