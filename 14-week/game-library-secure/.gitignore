@@ -1,0 +1,29 @@
+
+# Java and Maven
+**/target/
+*.class
+
+# Local H2 databases
+**/data/
+*.mv.db
+*.trace.db
+
+# Node.js
+**/node_modules/
+**/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
