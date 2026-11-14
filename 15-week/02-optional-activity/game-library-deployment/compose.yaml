@@ -1,0 +1,27 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env before starting}
+      DB_URL: jdbc:h2:file:/app/data/juegosdb
+      DB_USER: sa
+      DB_PASSWORD: ""
+      CORS_ALLOWED_ORIGIN: http://localhost:${APP_PORT:-8085}
+    volumes:
+      - game_library_data:/app/data
+    expose:
+      - "8080"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "${APP_PORT:-8085}:80"
+    restart: unless-stopped
+
+volumes:
+  game_library_data:
