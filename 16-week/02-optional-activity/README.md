@@ -1,7 +1,7 @@
 # Week 16 — Fullstack Development Portfolio | Game Library
 
 **Course:** Complementaria III — Desarrollo Fullstack · 2026-B  
-**Student:** Complete with the name used in your GitHub profile  
+**Student:** Carlos Andrés Zuluaga Acuña
 **Period:** C1, C2 and C3 · **Delivery:** Week 16 (optional)
 
 > This portfolio links the work included in the submitted repository. Links are relative to the repository root, so they work when this folder is committed to the same GitHub repository. The evidence checklist distinguishes requested screenshots from screenshots actually available.
